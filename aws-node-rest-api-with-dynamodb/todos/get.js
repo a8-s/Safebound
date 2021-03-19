@@ -6,7 +6,7 @@ const dynamoDb = new AWS.DynamoDB.DocumentClient();
 
 module.exports.get = (event, context, callback) => {
   const params = {
-    TableName: "Products",
+    TableName: "SecurityLog",
     Key: {
       id: event.pathParameters.id,
     },

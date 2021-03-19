@@ -10,7 +10,7 @@ module.exports.create = (event, context, callback) => {
   const data = JSON.parse(event.body);
 
 const params = {
-  TableName: "Products",
+  TableName: "SecurityLog",
   Item: {
     ID: uuid.v1(),
     name: data.name,

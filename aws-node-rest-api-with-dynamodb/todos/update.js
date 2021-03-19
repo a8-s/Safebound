@@ -9,7 +9,7 @@ module.exports.update = (event, context, callback) => {
   const data = JSON.parse(event.body);
 
 const params = {
-  TableName: "Products",
+  TableName: "SecurityLog",
   Key: {
     ID: event.pathParameters.id,
   },

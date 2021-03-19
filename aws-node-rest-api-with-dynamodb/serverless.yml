@@ -21,7 +21,7 @@ provider:
         - dynamodb:PutItem
         - dynamodb:UpdateItem
         - dynamodb:DeleteItem
-      Resource: "arn:aws:dynamodb:us-east-1:543736878574:table/Products"
+      Resource: "arn:aws:dynamodb:us-east-1:543736878574:table/SecurityLog"
 
 functions:
   create:

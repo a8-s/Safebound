@@ -2,7 +2,7 @@
 const AWS = require('aws-sdk');
 const dynamoDb = new AWS.DynamoDB.DocumentClient();
 const params = {
-  TableName: "Products",
+  TableName: "SecurityLog",
 };
 module.exports.list = (event, context, callback) => {
   // fetch all todos from the database
