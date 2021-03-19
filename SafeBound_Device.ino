@@ -26,7 +26,7 @@ void setup () {
     delay(1000);
     Serial.print("Connecting..");
 
-   // pinMode(3, INPUT_PULLUP);
+    pinMode(3, INPUT_PULLUP);
  
   }
 
